@@ -1,12 +1,15 @@
 
 const btnHambuger = document.querySelector('#btnHamburger');
+const header = document.querySelector('.header');
 
 btnHambuger.addEventListener('click',function(){
     console.log("[LOG HINLO] click hinlo hamburger");
-    if(btnHambuger.classList.contains('open')){
-        btnHambuger.classList.remove('open');
+    
+    if(header.classList.contains('open')){
+        header.classList.remove('open');
     }else{
-        btnHambuger.classList.add('open');
+
+        header.classList.add('open');    
     }
 
 })
