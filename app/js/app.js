@@ -15,7 +15,6 @@ btnHambuger.addEventListener('click',function(){
         })
 
 
-
     }else{ //open
         header.classList.add('open');   
         fadeElems.forEach(function(element){
@@ -23,8 +22,6 @@ btnHambuger.addEventListener('click',function(){
             element.classList.add('fade-in'); 
         })
 
-
-         
     }
 
 })
