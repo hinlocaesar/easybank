@@ -312,6 +312,10 @@ a, a:visited, a:hover {
   opacity: 1;
 }
 
+.hero {
+  background-color: #fafafa;
+}
+
 @media (min-width: 64em) {
   .hero {
     min-height: 41rem;
